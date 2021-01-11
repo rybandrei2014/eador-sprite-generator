@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        // Output config
+        "outDir": "build",
+        "outFile": "build/index.jsx",
+        "sourceMap": false,
+        "target": "es3",
+
+        // Module resolution
+        "module": "none",
+
+        // JS handling
+        "allowJs": true,
+        "checkJs": false,
+        "downlevelIteration": true,
+
+        // Type checking
+        "strict": true,
+        "noLib": false,
+        "lib": ["es5"], // exclude DOM and ScriptHost
+
+        "skipLibCheck": true,
+        
+        // Include photoshop.d.ts type definitions
+        "types": ["types-for-adobe/photoshop/2015.5"]
+    },
+    "exclude": ["node_modules", "build", "gulpfile.js"],
+    "compileOnSave": true
+}

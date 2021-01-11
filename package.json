@@ -1,0 +1,27 @@
+{
+  "name": "eador-sprite-generator",
+  "version": "1.0.0",
+  "description": "Generate .jsx ExtendScript to process .psd files with units to generate sprite assets for Eador Genesis",
+  "main": "index.ts",
+  "homepage": "https://github.com/dragoon000320/eador-sprite-generator",
+  "bugs": {
+    "url": "https://github.com/dragoon000320/eador-sprite-generator/issues",
+    "email": "rybandrei2014@gmail.com"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp build_watch"
+  },
+  "keywords": ["photoshop scripting", "Eador Genesis mod", "ExtendScript"],
+  "author": "Andrei Rybin",
+  "license": "EPL-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "through2": "^4.0.2",
+    "types-for-adobe": "^1.7.0",
+    "typescript": "^4.1.3"
+  }
+}
